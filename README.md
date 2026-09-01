@@ -1,0 +1,2 @@
+# GD32F407VET6
+this is study GD32F407VET6.
