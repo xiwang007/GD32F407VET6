@@ -39,12 +39,12 @@ GD32F407VET6 的核心参数如下：
 ## 标准库的调用与封装
 
 - gpio
-- spi
-- i2c
-- uart ✅
-- can
-- adc
 - rcu
+- adc
+- uart ✅
+- i2c
+- spi
+- can
 
 测试：用SPI读取flash地址并修改后重新读取一次
 
