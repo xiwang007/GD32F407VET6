@@ -26,15 +26,22 @@ void JK_GPIO_O_T_BASE_F_Init(JK_GPIO_O_T_BASE *self)
     }
 }
 
-
+// 设置为高电平
 void JK_GPIO_O_T_BASE_F_Set(JK_GPIO_O_T_BASE *self)
 {
     // gpio_bit_set(GPIOB, GPIO_PIN_2);
     gpio_bit_set(self->group, self->pin);
 }
 
+// 设置为低电平
 void JK_GPIO_O_T_BASE_F_Reset(JK_GPIO_O_T_BASE *self)
 {
     // gpio_bit_reset(GPIOB, GPIO_PIN_2);
     gpio_bit_reset(self->group, self->pin);
+}
+
+// 切换高低电平
+void JK_GPIO_O_T_BASE_F_Toggle(JK_GPIO_O_T_BASE *self)
+{
+    gpio_bit_toggle(self->group, self->pin);
 }

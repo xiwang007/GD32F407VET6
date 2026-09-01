@@ -51,5 +51,6 @@ typedef struct
 void JK_GPIO_O_T_BASE_F_Init(JK_GPIO_O_T_BASE *self);
 void JK_GPIO_O_T_BASE_F_Set(JK_GPIO_O_T_BASE *self);
 void JK_GPIO_O_T_BASE_F_Reset(JK_GPIO_O_T_BASE *self);
+void JK_GPIO_O_T_BASE_F_Toggle(JK_GPIO_O_T_BASE *self);
 
 #endif
