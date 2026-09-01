@@ -1,5 +1,8 @@
 #include "jk_timer_base.h"
 
+/**
+ * 基础定时器初始化
+ */
 void JK_TIMER_BASE_T_BASE_F_Init(JK_TIMER_BASE_T_BASE *self)
 {
     // 开启时钟

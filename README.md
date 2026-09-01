@@ -1,8 +1,21 @@
 # GD32F407VET6
 
 > 官网：https://www.gd32mcu.com/cn/download?kw=GD32F4
-
-
+>
+> 学习资料：
+> https://lceda001.feishu.cn/wiki/Zawdwg0laig3Qnk2XuxcKrQRn2g
+>
+> https://www.yuque.com/icheima/phw139
+>
+> https://www.yuque.com/icheima/arm32
+>
+> https://www.yuque.com/xxcls/mcu
+>
+> https://www.yuque.com/xxcls/arm32
+>
+> 小智【学习资料】：
+>
+> https://github.com/LeoKemp223
 
 GD32F407VET6 的核心参数如下：
 
@@ -55,4 +68,12 @@ typedef enum JK_USART_E_Id
 ```
 
 
+
+# 超链接
+
+> 这边存放可能需要的链接
+
+
+
+https://squareline.io/
 
