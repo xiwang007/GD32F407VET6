@@ -53,3 +53,22 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+
+#//////////////////////////
+# Mac
+#//////////////////////////
+/**/.DS_Store
+
+
+#//////////////////////////
+# Svn
+#//////////////////////////
+.svn
+
+!*.gitkeep
+
+/Project/**/*
+!/Project/GD32F407VE.uvoptx
+!/Project/GD32F407VE.uvprojx
+
