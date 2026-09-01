@@ -3,6 +3,7 @@
 > 官网：https://www.gd32mcu.com/cn/download?kw=GD32F4
 >
 > 学习资料：
+>
 > https://lceda001.feishu.cn/wiki/Zawdwg0laig3Qnk2XuxcKrQRn2g
 >
 > https://www.yuque.com/icheima/phw139
@@ -94,4 +95,69 @@ typedef enum JK_USART_E_Id
 
 
 https://squareline.io/
+
+
+
+
+
+# 知识点
+
+## GPIO
+
+#### 输出
+
+##### 推挽输出
+
+ 简单理解就是在上拉和下拉中加了切换开关，那么上拉要么下拉。如果是上拉时输出高电平，如果是下拉时输出的是低电平。
+
+![image-20260901184358617](md_images/README.assets/image-20260901184358617.png)
+
+##### 开漏输出
+
+简单理解就是在下拉中加了一个开关这个开关由漏极控制电路的通断，断开则是断开了与地线的连接。
+
+开漏输出可以额外设置上拉和下拉 设置了代表默认电平状态。
+
+![image-20260901184535168](md_images/README.assets/image-20260901184535168.png)
+
+#### 输入
+
+##### 下拉输入
+
+> 默认低电平
+
+![image-20260901185040108](md_images/README.assets/image-20260901185040108.png)
+
+##### 上拉输入
+
+> 默认高电平
+
+![image-20260901185108616](md_images/README.assets/image-20260901185108616.png)
+
+##### 浮空输入
+
+> 无默认电平
+
+![image-20260901185204299](md_images/README.assets/image-20260901185204299.png)
+
+##### 模拟输入
+
+> 直接获取具体的值
+
+![image-20260901185020249](md_images/README.assets/image-20260901185020249.png)
+
+
+
+# 硬件
+
+## MOS管
+
+### NMOS
+
+![image-20260901184202598](md_images/README.assets/image-20260901184202598.png)
+
+
+### PMOS
+
+![image-20260901184220651](md_images/README.assets/image-20260901184220651.png)
 
